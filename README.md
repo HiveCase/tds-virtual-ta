@@ -22,14 +22,20 @@ The system processes student questions, retrieves the most relevant information 
 
 The application exposes a single POST endpoint for queries:
 
-`https://tds-virtual-ta-delta-three.vercel.app/query` (Replace with your actual deployed URL if it changes)
+**`https://tds-virtual-ta-delta-three.vercel.app/query`**
+
+This endpoint is publicly hosted and accepts JSON requests for question answering.
+
+> ⚠️ Note: If you're running the API locally (e.g. for development), replace the URL with `http://127.0.0.1:8000/query`.
+
+---
 
 ### Request Format (POST)
 
-The endpoint accepts a JSON payload with the following structure:
+The endpoint accepts a JSON payload:
 
 ```json
 {
   "question": "string",
-  "image": "string (base64 encoded, optional)"
+  "image": "string (base64-encoded, optional)"
 }
