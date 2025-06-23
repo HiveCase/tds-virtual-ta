@@ -8,8 +8,8 @@ The Virtual TA is built as a Retrieval-Augmented Generation (RAG) system. It lev
 * Course content for TDS Jan 2025 (as of April 15, 2025).
 * TDS Discourse posts from January 1, 2025, to April 14, 2025.
 
-The system processes student questions, retrieves the most relevant information from its knowledge base, and then uses a Large Language Model (LLM) to generate a concise answer, citing the sources used. It also supports multimodal queries, allowing students to ask questions with accompanying images.
-
+The system processes student questions, retrieves the most relevant information from its knowledge base, and then uses a Large Language Model (LLM) to generate a concise answer, citing the sources used. It also supports multimodal queries, allowing students to ask questions with accompanying images.<br>
+<a href="https://discourse.onlinedegree.iitm.ac.in/t/using-browser-cookies-to-access-discourse-api-in-python/173605">Using Browser Cookies to Access Discourse API in Python</a>
 ## Features
 
 * **Intelligent Q&A:** Provides comprehensive answers to student queries based on a curated knowledge base.
